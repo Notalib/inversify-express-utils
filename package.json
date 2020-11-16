@@ -1,7 +1,7 @@
 {
   "name": "@nota/inversify-express-utils",
-  "version": "6.3.2",
-  "description": "Some utilities for the development of express applications with Inversify",
+  "version": "6.3.2-alpha.1",
+  "description": "Fork of `inversify-express-utils` with updated dependencies. Some utilities for the development of express applications with Inversify",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "typings": "./dts/index.d.ts",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inversify/inversify-express-utils.git"
+    "url": "git+https://github.com/Notalib/inversify-express-utils.git"
   },
   "keywords": [
     "InversifyJS",
