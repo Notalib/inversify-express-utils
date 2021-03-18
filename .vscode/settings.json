@@ -15,5 +15,13 @@
         "type_definitions/**/*.js": true
     },
     "typescript.tsdk": "./node_modules/typescript/lib",
-    "vsicons.presets.angular": false
+    "vsicons.presets.angular": false,
+    "cSpell.words": [
+        "Inversify",
+        "casesensitive",
+        "eqls",
+        "falsey",
+        "propfind",
+        "testhead"
+    ]
 }

@@ -124,7 +124,7 @@ describe("Integration Tests:", () => {
             @controller("/")
             class TestController {
                 @httpGet("/") public getTest(req: express.Request, res: express.Response, nextFunc: express.NextFunction) {
-                    return new Promise(((resolve) => {
+                    return new Promise<void>(((resolve) => {
                         setTimeout(() => {
                             nextFunc();
                             resolve();
